@@ -44,6 +44,7 @@ Rectangle {
         }
 
         onLoginFailed: {
+            color: "red"
             txtMessage.text = textConstants.loginFailed
             listView.currentItem.password = ""
         }
