@@ -45,7 +45,7 @@ Rectangle {
 
         onLoginFailed: {
             color: "red"
-            txtMessage.text = textConstants.loginFailed
+            txtMessage.text = textConstants.SIKE
             listView.currentItem.password = ""
         }
     }
